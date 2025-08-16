@@ -1,0 +1,45 @@
+header{
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navar--a{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navar--a li a{
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(38, 50, 56, 1);
+}
+.navar--btn{
+    border: 2px solid rgba(38, 50, 56, 1);
+    height: 70px;
+    width: 220px;
+    font-family: Poppins;
+    cursor: pointer;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+background-color: transparent;
+transition: 2s;
+}
+.navar--btn:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,48 @@
+#home{
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 95px;
+    padding-bottom: 30px;
+    
+}
+.home--h1{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 64px;
+line-height: 80px;
+padding-top: 40px;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+
+}
+.home--p{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(143, 149, 165, 1);
+padding-top: 35px;
+padding-bottom: 41px;
+}
+
+
+.home--card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.home--cards{
+    transition: 2.2s;
+    cursor: pointer;
+}
+
+.home--cards:hover{
+    transform: scale(1.1);
+}
+.imgg{
+    position: absolute;
+    left: 420px;
+    top: 220px;
+}

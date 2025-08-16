@@ -1,0 +1,57 @@
+#contactus{
+    padding-top: 60px;
+    background-color:rgba(255, 255, 255, 1);
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+#inputt{
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid rgba(143, 149, 165, 1);
+    border-radius: 10px;
+    
+}
+.contactus-con-btn{
+      width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px; 
+    color: white;
+    background-color: rgba(38, 50, 56, 1);
+font-style: Medium;
+font-size: 18px;
+
+}
+.contactus-con{
+    display: flex;
+    gap: 111px;
+}
+.contactus-con-h1{
+    padding-top: 80px;
+    color: rgba(0, 0, 0, 1);
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 80px;
+letter-spacing: 0%;
+}
+.contactus-con-p{
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(143, 149, 165, 1);
+padding-bottom: 40px;
+}
+.contactus-con img{
+    transition: 1.8s;
+    cursor: pointer;
+}
+.contactus-con img:hover{
+    
+        transform: scale(1.1);
+
+}

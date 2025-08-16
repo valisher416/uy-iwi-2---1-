@@ -1,0 +1,155 @@
+#Skills{
+    background-color:rgba(255, 255, 255, 1);
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+
+
+
+.Skills--cars{
+    width: 400px;
+height: 500px;
+background-color: rgba(245, 245, 245, 1);
+border-radius: 5px;
+}
+
+.Skills--con{
+    display: flex;
+    justify-content: space-between;
+}
+.Skills--h1{
+    text-align: center;
+    margin-bottom: 50px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 80px;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+}
+
+
+
+.Skills--cars h1{
+    padding-left: 41px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 30px;
+letter-spacing: 0%;
+padding-bottom: 5px;
+color: rgba(38, 50, 56, 1);
+}
+.Skills--cars p{
+    padding-left: 40px;
+    padding-top: 5px;
+    color: rgba(143, 149, 165, 1);
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 27px;
+}
+.Skills--cars img{
+    padding-left: 110px;
+    padding-right: 21px;
+transition: 2s;
+cursor: pointer;
+}
+
+
+.Skills--cars:hover{
+    img{
+    transform: scale(1.1);
+
+    }
+}
+
+
+.Skills--cars--01{
+     width: 400px;
+height: 500px;
+background-color: rgba(245, 245, 245, 1);
+border-radius: 5px;
+}
+.Skills--cars--01 h1{
+       padding-left: 41px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 30px;
+letter-spacing: 0%;
+padding-bottom: 5px;
+color: rgba(38, 50, 56, 1);
+padding-top: 23px;
+}
+.Skills--cars--01 p{
+        padding-left: 40px;
+    padding-top: 5px;
+    color: rgba(143, 149, 165, 1);
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 27px;
+}
+.Skills--cars--01 img{
+    padding-top: 20px;
+    transition: 2s;
+    cursor: pointer;
+}
+.Skills--cars--01:hover{
+    img{
+         transform: scale(1.1);
+    }
+}
+
+.Skills--cars--02{
+         width: 400px;
+height: 500px;
+background-color: rgba(245, 245, 245, 1);
+border-radius: 5px;
+}
+.Skills--cars--02 h1{
+        padding-left: 41px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 30px;
+letter-spacing: 0%;
+padding-bottom: 5px;
+color: rgba(38, 50, 56, 1);
+padding-top: 23px;
+}
+.Skills--cars--02 p{
+            padding-left: 40px;
+    padding-top: 5px;
+    color: rgba(143, 149, 165, 1);
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 27px;
+}
+.Skills--cars--02 img{
+    padding-top: 10px;
+    transition: 2s;
+    cursor: pointer;
+}
+.Skills--cars--02:hover{
+    img{
+        transform: scale(1.1);
+    }
+}
+
+
+
+.Skills--cars--btn:hover{
+        background-color: rgba(38, 50, 56, 1);
+      color: white;
+    border-radius: 4px;
+}

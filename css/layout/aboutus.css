@@ -1,0 +1,62 @@
+#Aboutus{
+    padding-top: 170px;
+    padding-bottom: 88px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+.Aboutus--cards--h1{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 80px;
+letter-spacing: 0%;
+color: black;
+}
+.Aboutus--con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Aboutus--con img{
+        transition: 2s;
+cursor: pointer;
+}
+
+.Aboutus--cards--p{
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(143, 149, 165, 1);
+}
+.Aboutus--card--1{
+    display: flex;
+    gap: 145px;
+    padding-top: 49px;
+    text-align: center;
+}
+.Aboutus--card--1 h1{
+    color: rgba(42, 50, 70, 1);
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 80px;
+letter-spacing: 0%;
+}
+.Aboutus--card--1 h4{
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(143, 149, 165, 1);
+}
+.Aboutus--con img:hover{
+
+        transform: scale(1.1);
+
+}
